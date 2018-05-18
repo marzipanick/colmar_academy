@@ -2,11 +2,17 @@ html {
   font-family: sans-serif;
   font-size: 16px;
   margin: 0 auto;
+  width: 100%;
 }
 
 a {
-  color: darkblue;
+  color: black;
   text-decoration: none;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
 }
 
 /* header section */
@@ -81,6 +87,7 @@ header {
 }
 
 /* start here main image section */
+
 .start {
   display: flex;
   align-items: center;
@@ -88,10 +95,13 @@ header {
   overflow: hidden;
   position: relative;
   top: 62px;
+  background-color: lightgrey;
+  margin-bottom: 32px;
+  padding-bottom: 32px;
 }
 
 .start img {
-  margin: 32px 24px;
+  margin: 32px 24px 0 24px;
   width: 62%;
 }
 
@@ -101,15 +111,43 @@ header {
 }
 
 .new h1 {
-  font-size: 32px;
   margin-bottom: 20px;
 }
 
 .btn {
   display: inline-block;
-  padding: 8px 30px;
+  padding: 8px 80px;
   color: white;
   background-color: grey;
+  border-radius: 2px;
   text-align: center;
   margin-top: 20px;
+}
+
+/* Keep practicing section */
+
+.practice {
+  position: relative;
+  top: 60px;
+  display: flex;
+}
+
+.testimonial img {
+  width: 60%;
+}
+
+.events {
+  width: 40%;
+}
+
+.orientation {
+  display: flex;
+}
+
+.campus {
+  display: flex;
+}
+
+.guest {
+  display: flex;
 }
