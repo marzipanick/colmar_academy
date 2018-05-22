@@ -1,3 +1,7 @@
+* {
+  line-height: 2;
+}
+
 html {
   font-family: sans-serif;
   font-size: 16px;
@@ -132,22 +136,251 @@ header {
   display: flex;
 }
 
-.testimonial img {
+.testimonial {
   width: 60%;
+  margin-left: 24px;
+}
+
+.testimonial img {
+  width: 90%;
+  margin: 32px 24px 32px 0;
+}
+
+.testimonial p {
+  margin: 24px 0;
+  width: 90%;
+  line-height: 1.4;
+}
+
+.testimonial h6 {
+  margin-bottom: 32px;
+  font-weight: 600;
 }
 
 .events {
+  margin: 16px;
   width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 10px;
+  border-left: 1px solid lightgrey;
+  padding-left: 16px;
+}
+
+.events img {
+  width: 35%;
+  height: 100%;
+}
+
+.events a {
+  color: blue;
+}
+
+.info {
+  width: 65%;
 }
 
 .orientation {
   display: flex;
+  height: 30%;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid lightgrey;
+}
+
+.orientation img {
+  margin-right: 20px;
 }
 
 .campus {
   display: flex;
+  height: 30%;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid lightgrey;
+}
+
+.campus img {
+  margin-right: 20px;
 }
 
 .guest {
   display: flex;
+  height: 30%;
+  align-items: center;
+  padding: 16px;
+  background-color: lightgrey;
+  border: 1px solid lightgrey;
+}
+
+.guest img {
+  margin-right: 20px;
+}
+
+.events p {
+  margin: 8px 0;
+  line-height: 1.2;
+}
+
+/* Start learning section */
+
+.learn {
+  position: relative;
+  top: 100px;
+  max-height: 1200px;
+  display: inline-block;
+  width: 100%;
+  background-color: lightgrey;
+}
+
+.title {
+  text-align: center;
+  padding-top: 32px;
+}
+
+.row-one {
+  display: flex;
+  justify-content: space-around;
+  margin: 32px 72px;
+}
+
+.row-one img {
+  width: 100%;
+  height: 150px;
+}
+
+.row-two {
+  display: flex;
+  justify-content: space-around;
+  margin: 32px 72px;
+}
+
+.row-two img {
+  width: 100%;
+  height: 150px;
+}
+
+.course {
+  width: 30%;
+  background-color: white;
+}
+
+.text {
+  padding: 16px 24px 24px 16px;
+  line-height: 1.4;
+}
+
+.text h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.text h3 {
+  margin-bottom: 8px;
+}
+
+/* Thesis Exhibit Section */
+
+.thesis {
+  position: relative;
+  top: 100px;
+  width: 100%;
+}
+
+.thesis h1 {
+  text-align: center;
+  margin: 32px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.urban {
+  width: 60%;
+  margin: 0 24px 24px 24px;
+}
+
+video {
+  width: 100%;
+}
+
+.about {
+  padding: 24px 24px 32px 0;
+  line-height: 1.4;
+}
+
+.about h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.others {
+  display: block;
+  height: 200px;
+  width: 40%;
+  margin-right: 16px;
+}
+
+.others img {
+  display: block;
+  width: 35%;
+  max-height: 150px;
+  margin: 16px;
+}
+
+.fisma {
+  background-color: lightgrey;
+  display: flex;
+  height: 200px;
+  align-items: center;
+}
+
+.ny {
+  display: flex;
+  height: 200px;
+  align-items: center;
+}
+
+.more {
+  width: 65%;
+  padding-right: 10px;
+}
+
+.more h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* footer */
+
+footer {
+  position: relative;
+  top: 100px;
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid lightgrey;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer p {
+  padding: 16px 0 0 24px;
+  color: grey;
+}
+
+.bottom-nav li {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding: 16px 24px 0 0;
+}
+
+.bottom-nav a {
+  color: grey;
 }
