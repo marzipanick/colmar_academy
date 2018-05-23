@@ -3,15 +3,22 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: "Assistant", sans-serif;
   font-size: 16px;
   margin: 0 auto;
   width: 100%;
+  background-color: white;
+  color: darkcyan;
 }
 
 a {
-  color: black;
+  color: mediumturquoise;
   text-decoration: none;
+  transition: color 500ms ease-in;
+}
+
+a:hover {
+  color: darkgoldenrod;
 }
 
 h1 {
@@ -46,13 +53,13 @@ header {
 
 .logo .one {
   font-size: 32px;
-  color: darkgrey;
+  color: darkcyan;
   font-weight: 900;
 }
 
 .logo .two {
   font-size: 32px;
-  color: lightgrey;
+  color: darkturquoise;
   font-weight: 100;
 }
 
@@ -87,6 +94,11 @@ header {
 
   .mobile-header img {
     height: 45px;
+    transition: border 500ms ease-out 300ms;
+  }
+
+  .mobile-header img:hover {
+    border: 2px solid darkcyan;
   }
 }
 
@@ -98,8 +110,9 @@ header {
   max-height: 600px;
   overflow: hidden;
   position: relative;
+  background-color: darkcyan;
+  color: white;
   top: 62px;
-  background-color: lightgrey;
   margin-bottom: 32px;
   padding-bottom: 32px;
 }
@@ -122,11 +135,17 @@ header {
 .btn {
   display: inline-block;
   padding: 8px 80px;
-  color: white;
-  background-color: grey;
+  color: mediumturquoise;
+  background-color: white;
   border-radius: 2px;
   text-align: center;
   margin-top: 20px;
+  transition: all 500ms ease-in;
+}
+
+.btn:hover {
+  background-color: darkturquoise;
+  color: darkgoldenrod;
 }
 
 @media only screen and (max-width: 540px) {
@@ -142,8 +161,8 @@ header {
     text-align: left;
   }
   .btn {
-    width: 80%;
-    margin: 24px 0 0 40px;
+    width: 90%;
+    margin: 24px 0;
     padding: 10px 0;
   }
 }
@@ -154,6 +173,8 @@ header {
   position: relative;
   top: 60px;
   display: flex;
+  background-color: white;
+  color: darkcyan;
 }
 
 .testimonial {
@@ -194,7 +215,12 @@ header {
 }
 
 .events a {
-  color: blue;
+  color: mediumturquoise;
+  transition: color 500ms ease-in;
+}
+
+.events a:hover {
+  color: darkgoldenrod;
 }
 
 .info {
@@ -216,7 +242,8 @@ header {
 }
 
 .guest {
-  background-color: lightgrey;
+  background-color: darkcyan;
+  color: white;
 }
 
 .events p {
@@ -259,6 +286,7 @@ header {
   }
   .guest {
     background-color: white;
+    color: darkcyan;
   }
 }
 
@@ -270,12 +298,13 @@ header {
   max-height: 1200px;
   display: inline-block;
   width: 100%;
-  background-color: lightgrey;
+  background-color: darkcyan;
 }
 
 .title {
   text-align: center;
   padding-top: 32px;
+  color: white;
 }
 
 .row-one {
@@ -303,6 +332,7 @@ header {
 .course {
   width: 30%;
   background-color: white;
+  color: darkcyan;
 }
 
 .text {
@@ -333,6 +363,9 @@ header {
     margin-bottom: 32px;
     top: 50px;
   }
+  .title {
+    color: darkcyan;
+  }
   .learn-mobile {
     display: block;
     position: relative;
@@ -340,13 +373,17 @@ header {
     margin: 0;
   }
   .learn-mobile .btn {
-    color: darkgrey;
-    background-color: lightgrey;
+    color: white;
+    background-color: darkcyan;
     text-align: left;
-    padding: 30px 24px;
+    padding: 24px 0 24px 16px;
     font-weight: bold;
     font-size: 28px;
-    margin: 8px 16px;;
+    margin: 8px;
+  }
+  .learn-mobile .btn:hover {
+    background-color: darkturquoise;
+    color: darkgoldenrod;
   }
 }
 
@@ -403,7 +440,8 @@ video {
 }
 
 .fisma {
-  background-color: lightgrey;
+  background-color: darkcyan;
+  color: white;
   display: flex;
   height: 200px;
   align-items: center;
@@ -449,11 +487,12 @@ footer {
   border-top: 1px solid lightgrey;
   display: flex;
   justify-content: space-between;
+  background-color: darkcyan;
+  color: white;
 }
 
 footer p {
   padding: 16px 0 0 24px;
-  color: grey;
 }
 
 .bottom-nav li {
@@ -464,7 +503,12 @@ footer p {
 }
 
 .bottom-nav a {
-  color: grey;
+  color: mediumturquoise;
+  transition: color 500ms ease-in;
+}
+
+.bottom-nav a:hover {
+  color: darkgoldenrod;
 }
 
 @media only screen and (max-width: 540px) {
