@@ -94,11 +94,15 @@ header {
 
   .mobile-header img {
     height: 45px;
+  }
+
+  .mobile-header a {
     transition: border 500ms ease-out 300ms;
   }
 
-  .mobile-header img:hover {
+  .mobile-header a:hover {
     border: 2px solid darkcyan;
+    border-radius: 3px;
   }
 }
 
